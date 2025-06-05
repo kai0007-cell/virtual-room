@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Virtual Room</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .container img {
+            width: 100%;
+            display: block;
+        }
+        .clickable {
+            position: absolute;
+            border: 2px solid transparent;
+            cursor: pointer;
+        }
+        .clickable:hover {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="room.jpg" alt="Virtual Room">
+
+        <!-- Clickable Areas -->
+        <a href="#" class="clickable" title="Bedsheet" style="top: 400px; left: 60px; width: 250px; height: 150px;"></a>
+        <a href="#" class="clickable" title="Pillow" style="top: 350px; left: 70px; width: 150px; height: 80px;"></a>
+        <a href="#" class="clickable" title="Lamp" style="top: 340px; left: 460px; width: 50px; height: 100px;"></a>
+        <a href="#" class="clickable" title="Car Toys" style="top: 600px; left: 130px; width: 180px; height: 80px;"></a>
+        <a href="#" class="clickable" title="PC" style="top: 370px; left: 520px; width: 300px; height: 130px;"></a>
+        <a href="#" class="clickable" title="Mirror" style="top: 200px; left: 850px; width: 130px; height: 300px;"></a>
+        <a href="#" class="clickable" title="Posters/Frames" style="top: 100px; left: 250px; width: 400px; height: 150px;"></a>
+        <a href="#" class="clickable" title="Lights" style="top: 270px; left: 100px; width: 300px; height: 40px;"></a>
+        <a href="#" class="clickable" title="Clock" style="top: 120px; left: 630px; width: 60px; height: 60px;"></a>
+        <a href="#" class="clickable" title="Chair" style="top: 530px; left: 500px; width: 130px; height: 160px;"></a>
+        <a href="#" class="clickable" title="Table" style="top: 460px; left: 470px; width: 400px; height: 150px;"></a>
+        <a href="#" class="clickable" title="Soft Toys" style="top: 450px; left: 740px; width: 100px; height: 80px;"></a>
+        <a href="#" class="clickable" title="Shoe Rack" style="top: 520px; left: 930px; width: 120px; height: 170px;"></a>
+        <a href="#" class="clickable" title="Dustbin" style="top: 620px; left: 720px; width: 60px; height: 100px;"></a>
+        <a href="#" class="clickable" title="Plant" style="top: 420px; left: 930px; width: 80px; height: 100px;"></a>
+    </div>
+</body>
+</html>
